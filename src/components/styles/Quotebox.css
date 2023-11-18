@@ -1,0 +1,28 @@
+.quotebox{
+    max-width: 400px;
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+}
+.quotebox__author{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.quotebox__title{
+    font-size: 40px;
+}
+.quotebox__btn{
+    all: unset;
+    
+}
+.quotebox__container{
+    background-color: rgba(255, 255, 255, 0.84);
+    border-radius: 39px;
+    
+}
+.quotebox__container p{
+    color: #25063F;
+    padding: 40px 20px;
+}
