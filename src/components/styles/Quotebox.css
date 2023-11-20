@@ -3,22 +3,30 @@
     display: grid;
     gap: 30px;
     justify-items: center;
+    font-family: 'DS-Digital', sans-serif; 
 }
+
 .quotebox__author{
     position: absolute;
-    bottom: 10px;
+    bottom: 22px;
     left: 50%;
     transform: translateX(-50%);
+    font-family: 'Fredoka', sans-serif;
 }
 .quotebox__title{
     font-size: 40px;
+    padding-bottom: 38px;
+}
+.quotebox__btn img{
+    height: 50px ;
+    width: 50px;
 }
 .quotebox__btn{
     all: unset;
     
 }
 .quotebox__container{
-    background-color: rgba(255, 255, 255, 0.84);
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.367) );
     border-radius: 39px;
     
 }

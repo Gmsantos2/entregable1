@@ -5,22 +5,32 @@
   height: 100vh;
   text-align: center;
   padding: 15px;
-  color: white;
-  background-size: cover;
-  font-family: 'DS-Digital', sans-serif;                                            
+  color: white;                                          
 }
 .bg1{
-  background-image: url('/imgs/Bg1.jpg') ;
+  background-image: url('/imgs/pl1.png'), url('/imgs/Bg1.jpg')  ;
+  background-position: bottom, top;
+  background-repeat: no-repeat;
+  background-size: 455px, cover;
 }
 
 .bg2{
-  background-image: url('/imgs/Bg2.jpg') ;
+  background-image: url('/imgs/pl2.png'), url('/imgs/Bg2.jpg')  ;
+  background-position: bottom, top;
+  background-repeat: no-repeat;
+  background-size: 545px, cover;
 }
 
 .bg3{
-  background-image: url('/imgs/Bg3.jpg') ;
+  background-image: url('/imgs/pl3.png'), url('/imgs/Bg3.jpg')  ;
+  background-position: bottom, top;
+  background-repeat: no-repeat;
+  background-size: 500px, cover;
 }
 
 .bg4{
-  background-image: url('/imgs/Bg4.jpg') ;
+  background-image: url('/imgs/pl4.png'), url('/imgs/Bg4.jpg')  ;
+  background-position: bottom, top;
+  background-repeat: no-repeat;
+  background-size: 500px, cover;
 }
